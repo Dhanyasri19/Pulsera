@@ -1,0 +1,159 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pulsera.ppg"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:4:5-65
+11-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:4:22-62
+12
+13    <uses-feature
+13-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:5:5-84
+14        android:name="android.hardware.camera"
+14-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:5:19-57
+15        android:required="true" />
+15-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:5:58-81
+16    <uses-feature
+16-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:6:5-90
+17        android:name="android.hardware.camera.flash"
+17-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:6:19-63
+18        android:required="true" />
+18-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:6:64-87
+19
+20    <permission
+20-->[androidx.core:core:1.12.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\935e46b73cc3469c0f57fbc368830437\transformed\core-1.12.0\AndroidManifest.xml:22:5-24:47
+21        android:name="com.pulsera.ppg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+21-->[androidx.core:core:1.12.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\935e46b73cc3469c0f57fbc368830437\transformed\core-1.12.0\AndroidManifest.xml:23:9-81
+22        android:protectionLevel="signature" />
+22-->[androidx.core:core:1.12.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\935e46b73cc3469c0f57fbc368830437\transformed\core-1.12.0\AndroidManifest.xml:24:9-44
+23
+24    <uses-permission android:name="com.pulsera.ppg.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+24-->[androidx.core:core:1.12.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\935e46b73cc3469c0f57fbc368830437\transformed\core-1.12.0\AndroidManifest.xml:26:5-97
+24-->[androidx.core:core:1.12.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\935e46b73cc3469c0f57fbc368830437\transformed\core-1.12.0\AndroidManifest.xml:26:22-94
+25
+26    <application
+26-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:8:5-24:19
+27        android:allowBackup="true"
+27-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:9:9-35
+28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+28-->[androidx.core:core:1.12.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\935e46b73cc3469c0f57fbc368830437\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
+29        android:debuggable="true"
+30        android:extractNativeLibs="false"
+31        android:icon="@mipmap/ic_launcher"
+31-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:10:9-43
+32        android:label="Pulsera"
+32-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:11:9-32
+33        android:supportsRtl="true"
+33-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:13:9-35
+34        android:testOnly="true"
+35        android:theme="@style/Theme.AppCompat.Light.DarkActionBar" >
+35-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:12:9-67
+36        <activity
+36-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:15:9-23:20
+37            android:name="com.pulsera.ppg.MainActivity"
+37-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:16:13-41
+38            android:exported="true"
+38-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:17:13-36
+39            android:screenOrientation="portrait" >
+39-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:18:13-49
+40            <intent-filter>
+40-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:19:13-22:29
+41                <action android:name="android.intent.action.MAIN" />
+41-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:20:17-69
+41-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:20:25-66
+42
+43                <category android:name="android.intent.category.LAUNCHER" />
+43-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:21:17-77
+43-->C:\Users\mahal\Downloads\Pulsera_AndroidModule\Pulsera\app\src\main\AndroidManifest.xml:21:27-74
+44            </intent-filter>
+45        </activity>
+46
+47        <service
+47-->[androidx.camera:camera-camera2:1.3.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\7b6d947f895c04ca92aa4b7cb118ea2a\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:24:9-33:19
+48            android:name="androidx.camera.core.impl.MetadataHolderService"
+48-->[androidx.camera:camera-camera2:1.3.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\7b6d947f895c04ca92aa4b7cb118ea2a\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:25:13-75
+49            android:enabled="false"
+49-->[androidx.camera:camera-camera2:1.3.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\7b6d947f895c04ca92aa4b7cb118ea2a\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:26:13-36
+50            android:exported="false" >
+50-->[androidx.camera:camera-camera2:1.3.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\7b6d947f895c04ca92aa4b7cb118ea2a\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:27:13-37
+51            <meta-data
+51-->[androidx.camera:camera-camera2:1.3.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\7b6d947f895c04ca92aa4b7cb118ea2a\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:30:13-32:89
+52                android:name="androidx.camera.core.impl.MetadataHolderService.DEFAULT_CONFIG_PROVIDER"
+52-->[androidx.camera:camera-camera2:1.3.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\7b6d947f895c04ca92aa4b7cb118ea2a\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:31:17-103
+53                android:value="androidx.camera.camera2.Camera2Config$DefaultProvider" />
+53-->[androidx.camera:camera-camera2:1.3.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\7b6d947f895c04ca92aa4b7cb118ea2a\transformed\jetified-camera-camera2-1.3.1\AndroidManifest.xml:32:17-86
+54        </service>
+55
+56        <provider
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\51526a6b0ed1ed3d6c3638cf56db1733\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+57            android:name="androidx.startup.InitializationProvider"
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\51526a6b0ed1ed3d6c3638cf56db1733\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+58            android:authorities="com.pulsera.ppg.androidx-startup"
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\51526a6b0ed1ed3d6c3638cf56db1733\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+59            android:exported="false" >
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\51526a6b0ed1ed3d6c3638cf56db1733\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+60            <meta-data
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\51526a6b0ed1ed3d6c3638cf56db1733\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+61                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\51526a6b0ed1ed3d6c3638cf56db1733\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+62                android:value="androidx.startup" />
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\51526a6b0ed1ed3d6c3638cf56db1733\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+63            <meta-data
+63-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\3a885783dc901c0d710df0ad94110261\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:29:13-31:52
+64                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+64-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\3a885783dc901c0d710df0ad94110261\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:30:17-78
+65                android:value="androidx.startup" />
+65-->[androidx.lifecycle:lifecycle-process:2.6.1] C:\Users\mahal\.gradle\caches\8.14.5\transforms\3a885783dc901c0d710df0ad94110261\transformed\jetified-lifecycle-process-2.6.1\AndroidManifest.xml:31:17-49
+66            <meta-data
+66-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+67                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+67-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+68                android:value="androidx.startup" />
+68-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+69        </provider>
+70
+71        <receiver
+71-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+72            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+72-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+73            android:directBootAware="false"
+73-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+74            android:enabled="true"
+74-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+75            android:exported="true"
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+76            android:permission="android.permission.DUMP" >
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+77            <intent-filter>
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+78                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+78-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+79            </intent-filter>
+80            <intent-filter>
+80-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+81                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+81-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+82            </intent-filter>
+83            <intent-filter>
+83-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+84                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+84-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+85            </intent-filter>
+86            <intent-filter>
+86-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+87                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\mahal\.gradle\caches\8.14.5\transforms\8654cf7d3cde1207fee0f292b1a73fa9\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+88            </intent-filter>
+89        </receiver>
+90    </application>
+91
+92</manifest>

@@ -1,0 +1,13 @@
+R_DEF: Internal format may change without notice
+local
+id btnStart
+id previewView
+id progressBar
+id tvHR
+id tvHRV
+id tvRR
+id tvSignalQuality
+id tvStatus
+id waveformView
+layout activity_main
+string app_name
